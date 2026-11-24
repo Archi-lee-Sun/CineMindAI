@@ -39,6 +39,9 @@ downloaded_models/
 *.sqlite3
 *.sqlite3-*
 pgdata/
+.local-postgres/
+.local-mail/
+cookies*.txt
 
 # Editor and operating-system files
 .idea/
