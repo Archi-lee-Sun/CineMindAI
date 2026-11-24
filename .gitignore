@@ -1,0 +1,47 @@
+# Project-local Python environments and caches
+.venv/
+venv/
+env/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.env
+
+# Local uploads, datasets, and downloaded models
+uploads/
+downloaded_models/
+/models/
+/data/
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+
+# Local databases and database storage
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+pgdata/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
